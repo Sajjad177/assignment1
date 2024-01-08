@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Merriweather', serif;
+}
+.container, .party{       
+    width: 85%;
+    max-width: 1320px;
+    margin: 50px auto;
+    height: 600px;
+}
+.title h1{
+    max-width: 630px;
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px auto;
+}
+.title h4{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* banner section start  */
+
+.banner{
+    background-image: url('resources/BannerImage.png');
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.548);
+    opacity: 100%;
+    background-blend-mode: multiply;
+}
+
+.banner .title{
+    padding: 170px 0px;
+}
+
+/* banner end */
+/* offer section */
+#featured{
+    text-align: center;
+}
+.section-container .title .featured-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+.section-container .title h4{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-container .section-img{
+    margin: 50px 0;
+}
+
+/* offer section end */
+/* party section start  */
+.party-featured{
+    display: block;
+}
+.party{
+    background-image: url('resources/Vectorrr.png');
+    background-color: rgba(0, 0, 0, 0.548);
+    opacity: 100%;
+    background-blend-mode: multiply;
+}
+.party-title-section{
+    display: flex block;
+    justify-content: space-around;
+}
+.party-featured-title{
+    padding: 120px 0px 120px 120px;
+    text-align: left;
+    float: left ;
+}
+.party-featured-title *{
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.party-title{
+    color: #FFF;
+    font-size: 64px;;
+    font-weight: 900;
+}
+.party-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 24px;
+    width: 640px;
+    padding: 0%;
+}
+.party-featured-title button{
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.image img{
+    display: flex;
+    justify-items: center;
+    height: 320px;
+    padding-right: 130px;
+    padding-top: 100px;
+}
+
+/* party section end */
+/* address-section start */
+.address-section{
+    padding: 100px 0;
+    background: linear-gradient(rgba(226, 165, 221, 0.349), rgba(255, 255, 255, 0.432));
+    max-width: 1320px;
+    height: 350px;
+}
+.address-section *{
+    margin-bottom: 20px ; 
+}
+
+.address-section .address h4 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.address-section .address span{
+    color:#F00;
+}
+.address-section button{
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* end */
+/* offer section start */
+
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+    max-width: 1320;
+}
+.best-offer-left-side *{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.best-offer .best-offer-left-side{
+    width: 300px;
+    padding: 0%;
+}
+.best-offer .best-offer-left-side h3{
+    color: #F00;
+}
+.best-offer .best-offer-left-side  h4{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.best-offer .best-offer-left-side p{
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.best-offer-image{
+    padding-top: 40px;
+    width: 463px;
+    height: 463px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border: 15px solid #F00;
+    border-radius: 100%;
+}
+.best-offer .best-offer-right-side h4{
+    color: #F00;;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.best-offer .best-offer-right-side img{
+    padding: 50px 0;
+}
+.best-offer-right-side p{
+    width: 350px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 300;
+}
+.best-offer-right-side{
+    padding-bottom: 10px;
+}
+
+/* .best-offer end */
+/* our portfolio section */
+
+.portfolio-text *{
+    text-align: left;
+    padding-bottom: 15px;
+}
+.portfolio-text h4{
+    color: #F00;
+}
+.portfolio-text h3{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 900;
+}
+.portfolio-text p {
+    width: 90%;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 300;
+}
+.portfolio-images{
+    float: left;
+}
+.portfolio-image-container img{
+    max-width: 400px;
+    height: 450px;
+    padding: 15px;
+    
+}
+.portfolio-images img:hover {
+    border-radius: 16px;
+    border: solid 2px rgba(255, 0, 0, 0.363);
+    padding: 1px;
+}
