@@ -29,7 +29,7 @@ p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
 }
 button{
     padding: 16px 32px;
@@ -45,7 +45,6 @@ span{
 }
 
 /* banner section start  */
-
 .banner{
     background-image: url('resources/BannerImage.png');
     border-radius: 16px;
@@ -53,15 +52,17 @@ span{
     opacity: 100%;
     background-blend-mode: multiply;
 }
-
 .banner .title{
     padding: 170px 0px;
 }
-
 /* banner end */
+
 /* offer section */
 #featured{
     text-align: center;
+}
+.section-container .title h1{
+    color: #F00;
 }
 .section-container .title h2{
     color: #F00;
@@ -80,6 +81,7 @@ span{
 
 /* offer section end */
 /* party section start  */
+
 .party-featured{
     display: block;
 }
@@ -124,6 +126,7 @@ span{
 
 /* party section end */
 /* address-section start */
+
 .address-section{
     padding: 100px 0;
     background: linear-gradient(rgba(226, 165, 221, 0.349), rgba(255, 255, 255, 0.432));
@@ -166,14 +169,9 @@ span{
     font-size: 32px;
     font-weight: 900;
 }
-
 .best-offer .best-offer-left-side p{
     width: 400px;
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-weight: 300;
 }
-
 .best-offer-image{
     padding-top: 40px;
     width: 463px;
@@ -194,15 +192,14 @@ span{
 }
 .best-offer-right-side p{
     width: 350px;
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-weight: 300;
 }
 .best-offer-right-side{
     padding-bottom: 10px;
 }
 
 /* .best-offer end */
+/* holiday section start */
+
 .holiday-section{
     max-width: 1320px;
 }
@@ -214,7 +211,6 @@ span{
     font-size: 24px;
     font-weight: 500;
 }
-
 .container .holiday-image{
     display: flex;
     align-items: center;
@@ -233,7 +229,7 @@ span{
     position: relative;
     left: 20%;
 }
-/* our portfolio section */
+/* our portfolio section start*/
 
 .portfolio-text *{
     text-align: left;
@@ -322,10 +318,11 @@ span{
 }
 
 /* subscribe section style end */
+/* footer section style start */
 .footer *{
     color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
 }
 .footer{
     height: 700px;
@@ -345,5 +342,8 @@ span{
 }
 .footer .footer-social-link{
     text-align: center;
-    margin: 30px 25px;
+    margin: 30px ;
+}
+.footer .footer-social-link img{
+    padding: 10px;
 }
