@@ -11,26 +11,39 @@
     margin: 50px auto;
     height: 600px;
 }
-.title h1{
+h1{
     max-width: 630px;
-    color: #FFF;
+    color: #FFF; 
     font-size: 60px;
     font-weight: 600;
     text-align: center;
     margin: 15px auto;
 }
-.title h4{
+h2{
     color: #FFF;
     font-size: 32px;
     font-weight: 400;
     text-align: center;
 }
 p{
-    color: #F00;
+    color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-size: 24px;
+    font-weight: 400;
+}
+button{
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
     font-weight: 500;
 }
+span{
+    color: #F00;
+}
+
 /* banner section start  */
 
 .banner{
@@ -50,15 +63,15 @@ p{
 #featured{
     text-align: center;
 }
-.section-container .title .featured-title {
+.section-container .title h2{
     color: #F00;
-    font-size: 88px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
 }
 .section-container .title h4{
     color: #070211;
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
 }
 .section-container .section-img{
@@ -101,16 +114,6 @@ p{
     width: 640px;
     padding: 0%;
 }
-.party-featured-title button{
-    padding: 16px 32px;
-    border-radius: 8px;
-    background: #F00;
-    border: none;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
 .image img{
     display: flex;
     justify-items: center;
@@ -136,19 +139,6 @@ p{
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
-}
-.address-section .address span{
-    color:#F00;
-}
-.address-section button{
-    padding: 16px 32px;
-    border-radius: 8px;
-    background: #F00;
-    border: none;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
 }
 
 /* end */
@@ -213,13 +203,49 @@ p{
 }
 
 /* .best-offer end */
+.holiday-section{
+    max-width: 1320px;
+}
+.holiday-section .holiday-title h1{
+    color: #070211;
+}
+.holiday-section .holiday-title h2{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .holiday-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .holiday-image img{
+    width: 350px;
+    height: 350px;
+}
+.container .holiday-image .image-1{
+    position: relative;
+    left: 15%;
+    top: 110px;
+}
+.container .holiday-image .image-2{
+    position: relative;
+    left: 20%;
+}
 /* our portfolio section */
 
 .portfolio-text *{
     text-align: left;
     padding-bottom: 15px;
 }
+.portfolio{
+    margin-top: 200px;
+    width: 82%;
+    height: auto;
+}
 .portfolio-text h4{
+    padding-top: 10vh;
     color: #F00;
 }
 .portfolio-text h3{
@@ -233,17 +259,91 @@ p{
     font-size: 20px;
     font-weight: 300;
 }
-.portfolio-images{
-    float: left;
+.portfolio-image-container .portfolio-images {
+    display:inline-table
 }
-.portfolio-image-container img{
+.portfolio-image-container .portfolio-images img{
     max-width: 400px;
     height: 450px;
     padding: 15px;
-    
+    display: inline-table;
 }
 .portfolio-images img:hover {
     border-radius: 16px;
     border: solid 2px rgba(255, 0, 0, 0.363);
     padding: 1px;
+}
+/* subscribe section style */
+.content * {
+    margin: 30px 0;
+}
+.subscribe .subscribe-img{
+    padding-top: 40px;
+}
+.subscribe{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 0;
+    text-align: center;
+    padding: auto 0;
+    height: 600px;
+}
+.subscribe .content h4 {
+    margin-top: 0;
+    padding: 0%;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 700;
+}
+.subscribe .content p{
+    padding: 0 40px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 300;
+}
+.subscribe form{
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+}
+.subscribe form input{
+    width:600px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: 0;
+    color: rgba(7, 2, 17, 0.30);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+}
+.subscribe form button{
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* subscribe section style end */
+.footer *{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer{
+    height: 700px;
+    background-color: #070211;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+.footer-text .footer-text-left{
+    margin: 50px 0;
+    text-align: left;
+}
+.footer-text .footer-text-right{
+    margin: 50px 0;
+}
+.footer .footer-social-link{
+    text-align: center;
+    margin: 30px 25px;
 }
